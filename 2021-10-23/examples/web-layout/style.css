@@ -1,0 +1,47 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+header {
+    background-color: red;
+    height: 10vh;
+    width: 100%;
+}
+
+nav {
+    background-color: orange;
+    height: 10vh;
+    width: 100%;
+}
+
+section {
+    background-color: peru;
+    height: 35vh;
+    width: 100%;
+}
+
+article {
+    background-color: saddlebrown;
+    height: 35vh;
+    width: 100%;
+}
+
+aside {
+    background-color: salmon;
+    height: 100px;
+    width: 50%;
+    float: right;
+}
+
+footer {
+    background-color: silver;
+    height: 10vh;
+    width: 100%;
+    clear: both;
+}

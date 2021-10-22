@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Example - {{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Flask Example</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/news">News</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>This is the News Page</h2>
+        <p>Donec et odio pellentesque diam volutpat commodo. Ac turpis egestas sed tempus urna et pharetra. Ut porttitor leo a diam sollicitudin tempor id eu. In est ante in nibh mauris. Diam maecenas ultricies mi eget mauris. Risus viverra adipiscing at in tellus integer feugiat scelerisque. Donec ultrices tincidunt arcu non sodales. Dolor sed viverra ipsum nunc. Lacinia quis vel eros donec ac. Semper viverra nam libero justo laoreet sit amet cursus.</p>
+        <p>Enim nunc faucibus a pellentesque. Vivamus at augue eget arcu dictum. Tincidunt tortor aliquam nulla facilisi cras. Faucibus purus in massa tempor nec. Proin nibh nisl condimentum id venenatis a. Cursus eget nunc scelerisque viverra mauris in. Mi tempus imperdiet nulla malesuada pellentesque elit. Commodo viverra maecenas accumsan lacus. Libero id faucibus nisl tincidunt. Cursus sit amet dictum sit amet justo donec enim. Tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum.</p>
+    </main>
+    <footer>
+        <p>&copy;2021</p>
+    </footer>
+</body>
+</html>
